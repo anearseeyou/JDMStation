@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* 商品列表 */
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+}
+
+.content .content-left {
+    float: left;
+    width: 90px;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.content .content-list li {
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    background-color: #e0e0e0;
+}
+
+.content .content-list li a {
+    font-size: 14px;
+    width: 100%;
+    display: block;
+}
+
+.content .content-list .current {
+    background-color: #fff;
+    border-right: none;
+}
+
+.content .content-list .current a {
+    color: #e9232c;
+}
+
+/* 右边 */
+.content .content-right {
+    height: 100%;
+    overflow: hidden;
+    padding: 10px 8px;
+}
+
+.content .content-right > a > img {
+    width: 100%;
+    display: block;
+}
+
+.content .content-right .content-fy {
+    padding: 10px 0;
+}
+
+.content .content-right .content-fy h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content .content-right .content-fy ul li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 10px;
+}
