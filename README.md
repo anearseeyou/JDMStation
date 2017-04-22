@@ -1,1 +1,1 @@
-This is a copy of a mobile terminal m station.
+This is a copy of a mobile terminal M station.
